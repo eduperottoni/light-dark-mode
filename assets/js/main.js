@@ -2,7 +2,7 @@ const changeUrl = function(imgLink){
     let href = imgLink.href;
     (href.includes('dark')) ? 
         imgLink.href = href.replace('dark', 'light'):
-        imgLink.href = href.replace('light', 'dark')
+        imgLink.href = href.replace('light', 'dark');
 }
 
 const changeMode = function(){
